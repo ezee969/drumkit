@@ -6,7 +6,7 @@ window.addEventListener("keydown",(e)=>{
     audio.currentTime = 0;
     audio.play();
     key.classList.add('playing');
-    
+
 });
   
 function removeTransition(e){
